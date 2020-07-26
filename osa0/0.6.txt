@@ -1,0 +1,8 @@
+sel = selain
+pal = palvelin
+
+
+sel->pal
+    post json-tiedosto, jossa on viestin sisältö ja aika
+pal->sel
+    json-tiedosto: {"message":"note created"}, joka näkyy consolessa
