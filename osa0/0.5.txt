@@ -1,0 +1,24 @@
+sel = selain
+pal = palvelin
+
+
+sel->pal
+    get spa
+pal->sel
+    html-koodi
+    
+sel->pal
+    get main.css
+pal->sel
+    css-koodi
+    
+sel->pal
+    get js (html-koodin vuoksi)
+pal->sel
+    javascript-koodi
+
+sel->pal
+    javascript pyytää data.json-tiedostoa
+pal->sel
+    json-tiedosto
+
