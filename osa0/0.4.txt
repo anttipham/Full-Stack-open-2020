@@ -1,1 +1,29 @@
-ab
+sel = selain
+pal = palvelin
+
+
+sel->pal 
+    lähettää form-kentän tiedon palvelimelle
+pal->sel
+    uudelleenohjauspyyntö
+    
+sel->pal
+    get notes
+pal->sel
+    html-koodi
+    
+sel->pal
+    get css
+pal->sel
+    css-koodi
+    
+sel->pal
+    get js
+pal->sel
+    javascript-koodi
+
+sel->pal
+    javascript pyytää json-tiedostoa
+pal->sel
+    json-tiedosto
+
