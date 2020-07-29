@@ -39,16 +39,16 @@ const App = () => {
   const [neutral, setNeutral] = useState(0)
   const [bad, setBad] = useState(0)
   
-  const handleGoodClick = () => setGood(good + 1)
-  const handleNeutralClick = () => setNeutral(neutral + 1)
-  const handleBadClick = () => setBad(bad + 1)
+  const goodClick = () => setGood(good + 1)
+  const neutralClick = () => setNeutral(neutral + 1)
+  const badClick = () => setBad(bad + 1)
   
   return (
     <div>
       <h1>Give feedback</h1>
-      <Button text={"Good"} handleClick={handleGoodClick} />
-      <Button text={"Neutral"} handleClick={handleNeutralClick} />
-      <Button text={"Bad"} handleClick={handleBadClick} />
+      <Button text={"Good"} handleClick={goodClick} />
+      <Button text={"Neutral"} handleClick={neutralClick} />
+      <Button text={"Bad"} handleClick={badClick} />
       
       <h1>Statistics</h1>
       <Statistics good={good} neutral={neutral} bad={bad} />
