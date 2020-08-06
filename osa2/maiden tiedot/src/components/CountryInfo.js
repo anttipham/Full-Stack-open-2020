@@ -4,18 +4,17 @@ import Languages from './Languages'
 const CountryInfo = ({ country }) => (
   <div>
     <h2>{country.name}</h2>
-    
+
     <div>Capital: {country.capital}</div>
     <div>Population: {country.population}</div>
-    
+
     <h3>Languages</h3>
     <Languages languages={country.languages} />
-    
-    <img 
+
+    <img
       src={country.flag}
-      alt={`Flag of ${country.name}`} 
-      // Olen pahoillani. En tiedä, miten CSS-tiedoston saa toimimaan. orz
-      style={{width: "25%", height: "25%"}}
+      alt={`Flag of ${country.name}`}
+      style={{ width: '25%', height: '25%' }}
     />
   </div>
 )
