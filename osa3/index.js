@@ -8,6 +8,7 @@ const morgan = require('morgan')
 const app = express()
 app.use(express.json())
 app.use(cors())
+app.use(express.static('build'))
 
 morgan.token('json-post', (req, res) => {
   // Vain POST-pyyntöihin logataan sisältö, kuten tehtävänannossa kerrotaan
