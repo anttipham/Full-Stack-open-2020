@@ -1,0 +1,81 @@
+GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/info
+
+###
+
+GET http://localhost:3001/api/persons/5f39049bce12731520762dcb
+
+###
+
+DELETE http://localhost:3001/api/persons/5f3c3603a51e001b60f7bd50
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "a",
+  "number": "2"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "d",
+  "number": "4"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "",
+  "number": "26542432543265"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "ddd",
+  "number": "26542432543265"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "fdsa",
+  "number": ""
+}
+
+###
+
+PUT http://localhost:3001/api/persons/5f3c36cfcc224a310813d366
+Content-Type: application/json
+
+{
+  "number": "1234"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/5f3d56ea1c10bf09487845c1
+Content-Type: application/json
+
+{
+  "number": "4"
+}
