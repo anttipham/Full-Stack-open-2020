@@ -1,8 +1,11 @@
 /.vscode
+**/.env
+**/node_modules
+
 /h-html-testi
 /h-note
 /s-back
 /s-front
 
+# Heroku
 /osa3/back/.git
-**/.env
