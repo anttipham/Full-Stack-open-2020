@@ -1,10 +1,12 @@
 /.vscode
 **/.env
 **/node_modules
+tsconfig.json
 
 /h-html-testi
 /h-note
 /sback
+/sfrontmalli
 /sfront
 
 # Heroku
